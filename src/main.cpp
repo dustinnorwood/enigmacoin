@@ -2018,7 +2018,7 @@ bool LoadBlockIndex(bool fAllowNew)
   	vMerkleTree: ef7e256a2c */
         
         // Genesis block
-        const char* pszTimestamp = "First day of Project";
+        const char* pszTimestamp = "Get Money";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -2030,7 +2030,7 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1400539822;
+        block.nTime    = 1515273890;
         block.nBits    = 0x1e0ffff0;
         block.nNonce   = 2086299649;
 
